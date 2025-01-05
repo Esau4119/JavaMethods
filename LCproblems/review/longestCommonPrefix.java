@@ -9,7 +9,6 @@ class Solution {
 	public String longestCommonPrefix(String[] strs){
 		String prefix = strs[0]; 
 		
-
 		// So we dont over iterate
 		int minStr = Integer.MAX_VALUE; 	
 		for (String minFinder : strs){
